@@ -1,0 +1,12 @@
+.border-loader {
+  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  mask-composite: destination-out;
+  mask-composite: exclude;
+
+  background-image: conic-gradient(
+    transparent 10%,
+    #f0ebab,
+    #f3b4ce,
+    #96cfca
+  );
+}
